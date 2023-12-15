@@ -1,10 +1,11 @@
 import React from 'react'
+import { Box, Typography } from '@mui/material'
 
 const Main = () => {
     return (
-        <div>
-            <h1>Hello World! from Main</h1>
-        </div>
+        <Box>
+            <Typography color='primary'>Hello World! from Main</Typography>
+        </Box>
     )
 }
 

@@ -5,6 +5,10 @@ const Purple = '#6750A4'
 const Black = '#1C1B1F'
 
 const Theme = createTheme({
+    typography : {
+        fontFamily: 'Jura'
+    },
+
     palette: {
         primary: {
         main: Purple,

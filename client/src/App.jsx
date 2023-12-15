@@ -1,10 +1,17 @@
 import React from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import CustomThemeProvider from './components/CustomThemeProvider'
+import Main from './pages/Main'
 
 const App = () => {
     return (
-        <div>
-            <h1>Hello World!</h1>
-        </div>
+        <BrowserRouter>
+            <CustomThemeProvider>
+                <Routes>
+                    <Route path='/' element={ <Main /> } />
+                </Routes>
+            </CustomThemeProvider>
+        </BrowserRouter>
     )
 }
 

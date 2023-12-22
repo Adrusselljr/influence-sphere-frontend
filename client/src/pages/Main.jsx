@@ -4,7 +4,7 @@ import { Box, Typography } from '@mui/material'
 const Main = () => {
     return (
         <Box>
-            <Typography color='primary'>Hello World! from Main</Typography>
+            <Typography>Hello World! from Main</Typography>
         </Box>
     )
 }
